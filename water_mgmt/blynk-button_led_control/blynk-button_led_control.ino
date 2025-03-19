@@ -4,8 +4,8 @@
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "Mangalyaan";
-char pass[] = "leena321";
+char ssid[] = "";
+char pass[] = "";
 
 BLYNK_WRITE(V0){
   int value = param.asInt();
