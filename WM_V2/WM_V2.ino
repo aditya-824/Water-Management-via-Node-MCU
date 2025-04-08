@@ -11,8 +11,8 @@
 #define MIN_MOISTURE 3
 
 char auth[] = "d0O7545ihpkl7vVlWAARTCuamgrc5-fb";
-char ssid[] = "Level Up";
-char pass[] = "BMG9821028005";
+char ssid[] = "";
+char pass[] = "";
 BlynkTimer timer;
 
 int moistureVal = 0;
